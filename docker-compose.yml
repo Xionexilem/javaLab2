@@ -1,6 +1,6 @@
 services:
   java-lab:
-    image: ./
+    build: .
     container_name: java-lab
     volumes:
       - ./src:/lab/src
