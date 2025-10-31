@@ -100,11 +100,13 @@ public class Main {
               Fraction f3 = new Fraction(4, 9);
               Fraction f4 = new Fraction(11, 20);
 
+              System.out.println("Все стандартные операции:");
               f1.sum(2);
               f2.sub(f1);
               f3.multi(f1);
               f4.div(11);
 
+              System.out.println("\n" + "Комбинация операций:");
               f1.sum(f2).div(f3).sub(5);
             } else {
               obj.unknownTask(numberExercise);
