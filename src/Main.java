@@ -1,5 +1,3 @@
-import task1.Name;
-
 public class Main {
   public static void main(String[] args) {
     Name me = new Name("Lev", "Mitrakov", "Vladimirovich");

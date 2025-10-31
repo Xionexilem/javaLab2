@@ -1,5 +1,3 @@
-package task1;
-
 public class Name {
   private String name;
   private String surname;

@@ -1,5 +1,3 @@
-package task1;
-
 public class Home {
   private final int stage;
 
