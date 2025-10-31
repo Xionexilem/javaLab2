@@ -5,6 +5,7 @@ public class EmployeeExtended extends Employee {
 
   public EmployeeExtended(String name, DepartmentExtended department) {
     super(name, department);
+    department.addEmployee(this);
   }
 
   public List<EmployeeExtended> getEmployeesDepartment() {

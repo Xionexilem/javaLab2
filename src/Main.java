@@ -92,6 +92,19 @@ public class Main {
             }
             break;
           }
+          case 3: {
+            if (numberTask == 4) {
+              System.out.println("Сотрудники и отделы.");
+              DepartmentExtended department = new DepartmentExtended("IT");
+
+              EmployeeExtended petrov = new EmployeeExtended("Петров", department);
+              EmployeeExtended kozlov = new EmployeeExtended("Козлов", department);
+              EmployeeExtended sidorov = new EmployeeExtended("Сидоров", department);
+
+              System.out.println(sidorov.getEmployeesDepartment());
+            }
+            break;
+          }
           case 4: {
             if (numberTask == 5) {
               System.out.println("Создаем имена.");

@@ -10,4 +10,8 @@ public class DepartmentExtended extends Department {
   public List<EmployeeExtended> getEmployees() {
     return employees;
   }
+
+  public void addEmployee(EmployeeExtended employee) {
+    employees.add(employee);
+  }
 }
