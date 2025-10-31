@@ -113,7 +113,13 @@ public class Main {
             }
             break;
           }
+          default: {
+            System.out.println("Неизвестное задание.");
+            continue;
+          }
         }
+
+        obj.visualBottomTab();
       } catch (Exception e) {
         obj.invalidValue();
         scanner.next();
