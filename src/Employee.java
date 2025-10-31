@@ -7,6 +7,10 @@ public class Employee {
     this.department = department;
   }
 
+  protected Employee(String name) {
+    this.name = name;
+  }
+
   public Department getDepartment() {
     return this.department;
   }

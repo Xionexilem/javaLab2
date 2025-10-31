@@ -1,11 +1,16 @@
 import java.util.List;
 
 public class EmployeeExtended extends Employee {
-  DepartmentExtended department;
+  private DepartmentExtended department;
 
   public EmployeeExtended(String name, DepartmentExtended department) {
-    super(name, department);
+    super(name);
+    this.department = department;
     department.addEmployee(this);
+  }
+
+  public DepartmentExtended getDepartment() {
+    return this.department;
   }
 
   public List<EmployeeExtended> getEmployeesDepartment() {

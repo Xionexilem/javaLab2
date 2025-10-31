@@ -150,6 +150,7 @@ public class Main {
 
         obj.visualBottomTab();
       } catch (Exception e) {
+        System.out.println(e);
         obj.invalidValue();
         scanner.next();
       }
