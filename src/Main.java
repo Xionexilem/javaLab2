@@ -93,7 +93,7 @@ public class Main {
             break;
           }
           case 5: {
-            if (numberExercise == 5) {
+            if (numberTask == 5) {
               System.out.println("Дроби.");
               Fraction f1 = new Fraction(10, 15);
               Fraction f2 = new Fraction(7, 4);
@@ -115,6 +115,7 @@ public class Main {
           }
           default: {
             System.out.println("Неизвестное задание.");
+            obj.visualBottomTab();
             continue;
           }
         }
