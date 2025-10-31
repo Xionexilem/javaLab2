@@ -9,7 +9,7 @@ public class NameExtended extends Name {
   }
 
   public NameExtended(String name, String surname, String patronymic) {
-    super(surname, name, null);
+    super(surname, name, patronymic);
   }
 
   @Override
