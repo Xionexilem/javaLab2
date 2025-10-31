@@ -1,6 +1,6 @@
 public class Department {
-  private final String name;
-  private Employee boss;
+  protected final String name;
+  protected Employee boss;
 
   public Department(String name) {
     this.name = name;
