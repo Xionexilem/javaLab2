@@ -102,6 +102,8 @@ public class Main {
               EmployeeExtended sidorov = new EmployeeExtended("Сидоров", department);
 
               System.out.println(sidorov.getEmployeesDepartment());
+            } else {
+              obj.unknownTask(numberExercise);
             }
             break;
           }
