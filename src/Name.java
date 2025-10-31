@@ -4,8 +4,8 @@ public class Name {
   private String patronymic;
 
   public Name(String name, String surname, String patronymic) {
-    this.name = name;
     this.surname = surname;
+    this.name = name;
     this.patronymic = patronymic;
   }
 
@@ -21,8 +21,8 @@ public class Name {
   @Override
   public String toString() {
     StringBuilder result = new StringBuilder();
-    result.append(changeString(name, true));
     result.append(changeString(surname, true));
+    result.append(changeString(name, true));
     result.append(changeString(patronymic, false));
     return result.toString();
   }
