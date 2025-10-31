@@ -119,5 +119,8 @@ public class Main {
         scanner.next();
       }
     }
+
+    scanner.close();
+    System.out.println("Программа успешно завершила работу.");
   }
 }
