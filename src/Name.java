@@ -1,15 +1,15 @@
 public class Name {
-  private String name;
-  private String surname;
-  private String patronymic;
+  protected String name;
+  protected String surname;
+  protected String patronymic;
 
-  public Name(String name, String surname, String patronymic) {
+  public Name(String surname, String name, String patronymic) {
     this.surname = surname;
     this.name = name;
     this.patronymic = patronymic;
   }
 
-  private String changeString(String string, Boolean space) {
+  protected String changeString(String string, Boolean space) {
     StringBuilder result = new StringBuilder();
     if (string != null && !string.isEmpty()) {
       result.append(string);
@@ -20,10 +20,8 @@ public class Name {
 
   @Override
   public String toString() {
-    StringBuilder result = new StringBuilder();
-    result.append(changeString(surname, true));
-    result.append(changeString(name, true));
-    result.append(changeString(patronymic, false));
-    return result.toString();
+      return changeString(surname, true) +
+              changeString(name, true) +
+              changeString(patronymic, false);
   }
 }

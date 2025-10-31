@@ -92,6 +92,19 @@ public class Main {
             }
             break;
           }
+          case 4: {
+            if (numberTask == 5) {
+              System.out.println("Создаем имена.");
+              System.out.println(
+                new NameExtended("Клеопатра") + "\n" +
+                new NameExtended("Александр", "Пушкин", "Сергеевич") + "\n" +
+                new NameExtended("Владимир", "Маяковский") + "\n" +
+                new NameExtended("Христофор", "Бонифатьевич"));
+            } else {
+              obj.unknownTask(numberExercise);
+            }
+            break;
+          }
           case 5: {
             if (numberTask == 5) {
               System.out.println("Дроби.");
