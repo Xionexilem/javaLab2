@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
   
- // Для визулаьной части начала задания
+ // Для визуальной части начала задания
   private void visualTopTab (int exercise, int task) {
     String visual = " ========== ";
     System.out.println(visual + "Задание №" + exercise + "  Задача №" + task + visual);
